@@ -1,0 +1,19 @@
+{
+  "$schema": "node_modules/luvabase/manifest-schema.json",
+  "identifier": "skrivla",
+  "name": "Skrivla",
+  "subtitle": "Collaborative text editor",
+  "icon": "public/apple-icon.png",
+  "repository": "https://github.com/simonbengtsson/skrivla",
+  "surfaces": [
+    {
+      "type": "web"
+    }
+  ],
+  "screenshots": [
+    "public/screenshot.png"
+  ],
+  "proxyResponses": {
+    "/.well-known/openai-apps-challenge": "cyu8tmVdoZAxSobegQMa27XgIdDni_brt7NFzrFNIcs",
+  }
+}
